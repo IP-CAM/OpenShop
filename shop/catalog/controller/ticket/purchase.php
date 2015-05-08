@@ -2,6 +2,7 @@
 class ControllerTicketPurchase extends Controller {
 	public function index() {
 		$this->load->language('ticket/purchase');
+        $this->load->model('models/interface');
 
 		$this->document->setTitle($this->language->get('heading_title'));
 
@@ -39,9 +40,9 @@ class ControllerTicketPurchase extends Controller {
 
 			$data['products'] = array();
 
+$data['ticket']=$this->model_models_interface->model_interface(0,'ticket','to_event','get',51);
 
-
-			//$products = $this->cart->getProducts();
+		//$products = $this->cart->getProducts();
         $products=array();
         $products['VIP']['id']='1';
         $products['VIP']['name']='VIP Ticket';
@@ -64,6 +65,9 @@ class ControllerTicketPurchase extends Controller {
             array('E','12'),
             array('H','2'),
         );
+        //
+
+
 
         //store ticket data in session
         $_SESSION["tickets"]=$products;
@@ -94,8 +98,6 @@ class ControllerTicketPurchase extends Controller {
 			} else {
 				$this->response->setOutput($this->load->view('default/template/ticket/purchase.tpl', $data));
 			}
-
-
 	}
 
 	public function add() {
@@ -212,7 +214,5 @@ class ControllerTicketPurchase extends Controller {
 
 
         }
-
-
     }
 }

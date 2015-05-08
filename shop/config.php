@@ -23,5 +23,5 @@ define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', 'test123');
-define('DB_DATABASE', 'shop');
-define('DB_PREFIX', 'oc_');
+define('DB_DATABASE', '3a_events_op');
+define('DB_PREFIX', '3a_');

@@ -187,3 +187,8 @@
 2015-05-05 13:13:07 - PHP Notice:  Undefined variable: footer in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 56
 2015-05-05 13:13:23 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
 2015-05-06 3:50:12 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 1:18:36 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 1:18:53 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 1:18:55 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 1:19:03 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 1:19:13 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
