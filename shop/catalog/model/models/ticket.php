@@ -164,9 +164,11 @@ class Ticket extends Model {
         return $temp_array;
     }
 
-    public function get_ticket_for_cart($user,$event_id,$ticket_id) {
+    public function get_ticket_for_cart($user,$data=array()) {
 
         $result=array();
+        $event_id=$data['event_id'];
+        $ticket_id=51;
 
         if($ticket_id > 0){
 

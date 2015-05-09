@@ -18,10 +18,12 @@ define('DIR_UPLOAD', 'C:/xampp/htdocs/shop/system/upload/');
 define('DIR_MODIFICATION', 'C:/xampp/htdocs/shop/system/modification/');
 define('DIR_LOGS', 'C:/xampp/htdocs/shop/system/logs/');
 
+
+define('LANG', 'catalog');
 // DB
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'root');
+define('DB_USERNAME', '3a_events_op');
 define('DB_PASSWORD', 'test123');
 define('DB_DATABASE', '3a_events_op');
 define('DB_PREFIX', '3a_');

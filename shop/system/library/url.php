@@ -20,16 +20,17 @@ class Url {
 			$url = $this->ssl;
 		}
 
-		$url .= 'index.php?route=' . $route;
+		$url .= 'index.php?';
 
 		if ($args) {
-			$url .= str_replace('&', '&amp;', '&' . ltrim($args, '&'));
+			$args = str_replace('&', '&amp;', '&' . ltrim($args, '&'));
 		}
 
+        $url .= Url_Encode('route=' . $route.$args);
 		foreach ($this->rewrite as $rewrite) {
 			$url = $rewrite->rewrite($url);
 		}
 
-		return $url;
+		return  $url;
 	}
 }

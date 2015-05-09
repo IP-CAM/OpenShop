@@ -41,6 +41,8 @@ final class Action {
 
 		$method = array_shift($parts);
 
+        writeGetUrlInfo('(LOAD ACTION >>>>):'.$file);
+
 		if ($method) {
 			$this->method = $method;
 		} else {
@@ -61,7 +63,10 @@ final class Action {
 
 			$controller = new $class($registry);
 
+            writeGetUrlInfo('(LOAD ACTION EXECUTE>>>>)');
+
 			if (is_callable(array($controller, $this->method))) {
+                writeGetUrlInfo('(LOAD ACTION EXECUTE-1>>>>)');
 				return call_user_func(array($controller, $this->method), $this->args);
 			} else {
 				return false;

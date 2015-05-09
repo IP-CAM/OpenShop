@@ -4,6 +4,7 @@ abstract class Controller {
 
 	public function __construct($registry) {
 		$this->registry = $registry;
+        //writeGetUrlInfo('(CONTROLLER >>>>):'.serialize($this->registry));
 	}
 
 	public function __get($key) {

@@ -39,8 +39,9 @@ class ControllerTicketPurchase extends Controller {
 			$data['action'] = $this->url->link('ticket/purchase/edit');
 
 			$data['products'] = array();
-
-$data['ticket']=$this->model_models_interface->model_interface(0,'ticket','to_event','get',51);
+        $event=array('event_id'=>'50');
+        $data['ticket']=$this->model_models_interface->model_interface(0,'ticket','for_cart','get',$event);
+        print_r($data['ticket']);
 
 		//$products = $this->cart->getProducts();
         $products=array();

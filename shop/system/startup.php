@@ -88,6 +88,7 @@ require_once(modification(DIR_SYSTEM . 'engine/front.php'));
 require_once(modification(DIR_SYSTEM . 'engine/loader.php'));
 require_once(modification(DIR_SYSTEM . 'engine/model.php'));
 require_once(modification(DIR_SYSTEM . 'engine/registry.php'));
+require_once(modification(DIR_SYSTEM . 'pubfun/function.php'));
 
 // Helper
 require_once(DIR_SYSTEM . 'helper/json.php');
