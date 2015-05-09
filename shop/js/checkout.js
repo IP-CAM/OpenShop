@@ -5,7 +5,7 @@
  */
 
 ;(function($){
-    var $ticketForm = $('ticket-form'),
+    var $ticketForm = $('#ticket-form'),
         $chooseTable = $('#choose-table'),
         $zoneInputs = $chooseTable.find('.zone-input'),
         $quantityInputs = $chooseTable.find('.quantity-input'),
@@ -50,12 +50,12 @@
             _result = 'Sorry, exceed maximum quantity';
             _error = true;
         } else if (_remain) {
-            _result = '$' + (_quantity * _price).toFixed(2);
+            _result = (_quantity * _price).toFixed(2);
         } else {
-            _result = '$0.00';
+            _result = '0.00';
         }
 
-        _$subtotal.html(_result);
+        _$subtotal.html('$' + _result);
         _$quantityInput.siblings('.subtotal-post').val(_result);
 
         if (_error) {
@@ -81,20 +81,20 @@
     }
 
     $submit.click(function(e){
-//        e.preventDefault();
         if(finalVal()) {
             $ticketForm.submit();
+        } else {
+            e.preventDefault();
         }
     });
 
     function finalVal() {
-        console.log($total.siblings('input').val());
-        if(!$total.siblings('input').val()) {
-            $total.html('Order empty');
-            $total.addClass('error');
-            return false;
+        if($total.siblings('input').val() > 0) {
+            return true;
         }
-        return true;
+        $total.html('Order empty');
+        $total.addClass('error');
+        return false;
     }
 
     $(window).load(function(){

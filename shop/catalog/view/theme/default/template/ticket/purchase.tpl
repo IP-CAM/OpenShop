@@ -3,7 +3,7 @@
     $tickets = array(
         '1' => array(
                 'name'  =>  'VIP1',
-                'price' =>  '$1000',
+                'price' =>  '1000.00',
                 'zone'  =>  array(
                     '101'   =>  '100',
                     '102'   =>  '200',
@@ -13,7 +13,7 @@
         ),
        '2' => array(
                 'name'  =>  'VIP2',
-                'price' =>  '$2000',
+                'price' =>  '2000.00',
                 'zone'  =>  array(
                     '101'   =>  '100',
                     '102'   =>  '200',
@@ -23,7 +23,7 @@
         ),
         '3' => array(
                 'name'  =>  'VIP3',
-                'price' =>  '$3000',
+                'price' =>  '3000.00',
                 'zone'  =>  array(
                     '101'   =>  '100',
                     '102'   =>  '200',
@@ -33,7 +33,7 @@
         ),
         '4' => array(
                 'name'  =>  'VIP4',
-                'price' =>  '$4000',
+                'price' =>  '4000.00',
                 'zone'  =>  array(
                     '101'   =>  '100',
                     '102'   =>  '200',
@@ -43,7 +43,7 @@
         ),
         '5' => array(
                 'name'  =>  'VIP5',
-                'price' =>  '$5000',
+                'price' =>  '5000.00',
                 'zone'  =>  array(
                     '101'   =>  '100',
                     '102'   =>  '200',
@@ -53,7 +53,7 @@
         ),
         '6' => array(
                 'name'  =>  'VIP6',
-                'price' =>  '$6000',
+                'price' =>  '6000.00',
                 'zone'  =>  array(
                     '101'   =>  '100',
                     '102'   =>  '200',
@@ -88,7 +88,7 @@
                 <?php foreach ($tickets as $row => $ticket) { ?>
               <tr id="<?php echo $row ?>">
                 <td class="text-center col-xs-2 input-name"><?php echo $ticket['name'] ?></td>
-                <td class="text-center col-xs-2 input-price"><?php echo $ticket['price'] ?></td>
+                <td class="text-center col-xs-2 input-price">$<?php echo $ticket['price'] ?></td>
                 <td class="text-center col-xs-3">
                     <div class=" col-md-8 col-md-offset-2">
                         <select name="<?php echo $row ?>['zone']" class="form-control zone-input tickets-input" >
@@ -108,7 +108,7 @@
                     </div>
                 </td>
                 <td class="text-center col-xs-2 input-subtotal">
-                    $0.00
+                    0.00
                 </td>
               </tr>
                 <?php } ?>

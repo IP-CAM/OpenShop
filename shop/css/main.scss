@@ -188,7 +188,7 @@ img.slide-img {
 
 
 //Start purchase page
-.ticket-purchase {
+#ticket-form {
     .table {
         td {
             vertical-align: middle;
@@ -203,13 +203,14 @@ img.slide-img {
             height: 4em;
         }
 
-        .error {
-            color: red;
-        }
+    }
 
-        input.error {
-            border: 1px solid red;
-        }
+    .error {
+        color: red;
+    }
+
+    input.error {
+        border: 1px solid red;
     }
 }
 

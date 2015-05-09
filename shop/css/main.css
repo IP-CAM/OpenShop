@@ -120,15 +120,15 @@ img.slide-img {
 .event-show-placeholder {
   padding: 0; }
 
-.ticket-purchase .table td {
+#ticket-form .table td {
   vertical-align: middle; }
-.ticket-purchase .table input {
+#ticket-form .table input {
   text-align: center; }
-.ticket-purchase .table tr {
+#ticket-form .table tr {
   height: 4em; }
-.ticket-purchase .table .error {
+#ticket-form .error {
   color: red; }
-.ticket-purchase .table input.error {
+#ticket-form input.error {
   border: 1px solid red; }
 
 /*# sourceMappingURL=main.css.map */
