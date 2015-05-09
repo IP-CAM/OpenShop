@@ -126,5 +126,9 @@ img.slide-img {
   text-align: center; }
 .ticket-purchase .table tr {
   height: 4em; }
+.ticket-purchase .table .error {
+  color: red; }
+.ticket-purchase .table input.error {
+  border: 1px solid red; }
 
 /*# sourceMappingURL=main.css.map */

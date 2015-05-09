@@ -36,17 +36,21 @@
             _$subtotal = $('#'+row).find('.input-subtotal'),
             _result = '',
             _error = false;
+        _$quantityInput.removeClass('error');
+        _$subtotal.removeClass('error');
+
+        if(!_remain) {
+            return false;
+        }
 
         if (_quantity % 1 !== 0 ) {
             _result = 'Please provide valid input';
             _error = true;
         } else if(_quantity > parseInt(_remain)) {
-            console.log(_quantity);
-            console.log(_remain);
             _result = 'Sorry, exceed maximum quantity';
             _error = true;
         } else {
-            _result = '$' + _quantity * _price;
+            _result = '$' + (_quantity * _price).toFixed(2);
         }
 
         _$subtotal.html(_result);
@@ -68,7 +72,7 @@
 
         });
 
-        $total.html('$' + total);
+        $total.html('$' + total.toFixed(2));
         $total.siblings('input').val(total);
     }
 

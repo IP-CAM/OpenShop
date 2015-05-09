@@ -92,7 +92,7 @@
                 <td class="text-center col-xs-3">
                     <div class=" col-md-8 col-md-offset-2">
                         <select name="zone" class="form-control zone-input tickets-input" >
-                            <option selected="selected">Choose Zone</option>
+                            <option selected="selected" value="0">Choose Zone</option>
                             <?php foreach ($ticket['zone'] as $k=>$v) { ?>
                             <option value="<?php echo $k ?>" remain="<?php echo $v ?>"><?php echo $k ?></option>
                             <?php } ?>
