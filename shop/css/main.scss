@@ -190,15 +190,17 @@ img.slide-img {
 //Start purchase page
 .ticket-purchase {
     .table {
+        td {
+            vertical-align: middle;
+        }
 
-        vertical-align: bottom;
 
         input {
             text-align: center;
         }
 
         tr {
-            height: 5em;
+            height: 4em;
         }
     }
 }

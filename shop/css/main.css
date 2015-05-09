@@ -120,4 +120,11 @@ img.slide-img {
 .event-show-placeholder {
   padding: 0; }
 
+.ticket-purchase .table td {
+  vertical-align: middle; }
+.ticket-purchase .table input {
+  text-align: center; }
+.ticket-purchase .table tr {
+  height: 4em; }
+
 /*# sourceMappingURL=main.css.map */
