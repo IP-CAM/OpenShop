@@ -91,7 +91,7 @@
                 <td class="text-center col-xs-2 input-price"><?php echo $ticket['price'] ?></td>
                 <td class="text-center col-xs-3">
                     <div class=" col-md-8 col-md-offset-2">
-                        <select name="zone" class="form-control zone-input tickets-input" >
+                        <select name="zone[<?php echo $row ?>]" class="form-control zone-input tickets-input" >
                             <option selected="selected" value="0">Choose Zone</option>
                             <?php foreach ($ticket['zone'] as $k=>$v) { ?>
                             <option value="<?php echo $k ?>" remain="<?php echo $v ?>"><?php echo $k ?></option>
