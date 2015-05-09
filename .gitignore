@@ -2,6 +2,7 @@
 *.swo
 .idea
 shop/.idea
+shop/config.php
 shop/log/
 !shop/log/index.html
 
