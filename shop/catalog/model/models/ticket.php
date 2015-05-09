@@ -179,7 +179,7 @@ class Ticket extends Model {
 
         }
         if(!empty($query)){
-            $result['ticket_price_list'] =$query[0];
+            $result['ticket_price_list'] =$query;
         }
         else{
             $result['ticket_price_list'] =null;
@@ -187,14 +187,14 @@ class Ticket extends Model {
 
         if($ticket_id > 0){
 
-            $result = $this->db->multi_query("CALL get_ticket_position_for_cart($ticket_id)");
+            $query = $this->db->multi_query("CALL get_ticket_position_for_cart($ticket_id)");
 
         }
         else {
 
         }
         if(!empty($query)){
-            $result['ticket_position_list'] =$query[0];
+            $result['ticket_position_list'] =$query;
         }
         else{
             $result['ticket_position_list'] =null;

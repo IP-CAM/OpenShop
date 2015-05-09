@@ -38,19 +38,32 @@ class ControllerTicketPurchase extends Controller {
 
 			$data['action'] = $this->url->link('ticket/purchase/checkout');
 
-			$data['products'] = array();
+			$data['tickets'] = array();
+
+        //Fake data for testing
+
+        $ticket_list=array();
+
         $event=array('event_id'=>'50');
-        $data['ticket']=$this->model_models_interface->model_interface(0,'ticket','for_cart','get',$event);
-
-        //store ticket data in session
-        $_SESSION["tickets"]=$data['ticket'];
-
-
-			// Totals
-			$this->load->model('extension/extension');
-
-			$total_data = array();
-			$total = 0;
+        $zone=array();
+        $ticket_db=$this->model_models_interface->model_interface(0,'ticket','for_cart','get',$event);
+        //print_r($ticket_db);
+        foreach ($ticket_db as $key => $value) {
+            if (is_array($value) && !empty($value)) {
+                if ($key == 'ticket_price_list') {
+                    foreach($value as $v){
+                                $ticket_list[$v['row_id']]['name']=$v['ticket_level_name'];
+                                $ticket_list[$v['row_id']]['price']=$v['price'];
+                    }
+                }
+                if($key=='ticket_position_list'){
+                    foreach($value as $v) {
+                            $ticket_list[$v['ticket_price_row_id']]['zone'][$v['zone']] = $v['capacity'];
+                        }
+                }
+            }
+        }
+        $data['tickets']=$ticket_list;
 
 			$data['checkout'] = $this->url->link('checkout/checkout', '', 'SSL');
 

@@ -23,8 +23,8 @@ define('DIR_CATALOG', 'C:/xampp/htdocs/shop/catalog/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'test123');
-define('DB_DATABASE', '3a_events_op');
+define('DB_HOSTNAME', '52.64.50.236');
+define('DB_USERNAME', 'eso');
+define('DB_PASSWORD', 'GcSY6VEaeaPswmBx');
+define('DB_DATABASE', 'eso_unit_test');
 define('DB_PREFIX', '3a_');
