@@ -1,4 +1,5 @@
 <?php echo $header; ?>
+
 <div class="container">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -13,34 +14,38 @@
           <table class="table table-bordered">
             <thead>
               <tr>
-                <td class="text-center"><?php echo $column_name; ?></td>
-                  <td class="text-center"><?php echo $column_price; ?></td>
-                  <td class="text-center"><?php echo $column_zone; ?></td>
-                  <td class="text-center"><?php echo $column_quantity; ?></td>
-                <td class="text-center"><?php echo $column_total; ?></td>
+                    <!--
+                <th class="text-center"><?php echo $column_name; ?></th>
+                <th class="text-center"><?php echo $column_price; ?></th>
+                <th class="text-center"><?php echo $column_zone; ?></th>
+                <th class="text-center"><?php echo $column_quantity; ?></th>
+                <th class="text-center"><?php echo $column_total; ?></th>
+                    -->
+                <th class="text-center">Name</th>
+                <th class="text-center">Price</th>
+                <th class="text-center">Zone</th>
+                <th class="text-center">Quantity</th>
               </tr>
             </thead>
             <tbody>
-              <?php foreach ($products as $product) { ?>
               <tr>
-                <td class="text-center"><?php echo $product['name']; ?></td>
-                  <td class="text-center"><?php echo $product['price']; ?></td>
-                  <td class="text-center">
+                <td class="text-center">VIP</td>
+                <td class="text-center">$1200.00</td>
+                <td class="text-center">
                       <select name="per1" id="per1">
-                          <option selected="selected">Choose one</option>
-                          <?php foreach($product['stock'] as $v) { ?>
-                          <option value="<?= $v[0] ?>"><?= $v[0] ?></option>
-                          <?php } ?>
+                          <option selected="selected">Choose Zone</option>
+                          <option value="101" remain="100">101</option>
+                          <option value="102" remain="200">102</option>
+                          <option value="103" remain="300">103</option>
+                          <option value="104" remain="400">104</option>
                       </select>
-                      <?php foreach($product['stock'] as $v) { ?>
-                      <input type="hidden" name="<?= $v[0] ?>" value="<?= $v[1] ?>"/>
-                      <?php } ?>
                   </td>
-                <td class="text-center"><div class="input-group btn-block" style="max-width: 200px;">
-                    <input type="text" name="quantity[<?php echo $product['id']; ?>]" value="<?php echo $product['quantity']; ?>" size="1" class="form-control" />
-                <td class="text-center"><?php echo $product['total']; ?></td>
+                <td class="text-center">
+                    <div>
+                        <input type="text" name="quantity">
+                    </div>
+                </td>
               </tr>
-              <?php } ?>
             </tbody>
           </table>
         </div>
