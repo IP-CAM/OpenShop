@@ -1,6 +1,9 @@
 *.swp
 *.swo
 .idea
+shop/.idea
+shop/log/
+!shop/log/index.html
 
 !index.html
 
