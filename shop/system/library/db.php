@@ -13,6 +13,7 @@ class DB {
 	}
 
 	public function query($sql) {
+		writeGetUrlInfo('(EXECUTE SQL>>>>):'.$sql);
 		return $this->db->query($sql);
 	}
 
@@ -27,4 +28,10 @@ class DB {
 	public function getLastId() {
 		return $this->db->getLastId();
 	}
+
+    public function multi_query($sql) {
+        writeGetUrlInfo('(EXECUTE SQL>>>>):'.$sql);
+        return $this->db->multi_query($sql);
+    }
+
 }
