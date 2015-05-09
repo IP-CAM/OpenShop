@@ -5,9 +5,11 @@
  */
 
 ;(function($){
-    var $chooseTable = $('#choose-table'),
+    var $ticketForm = $('ticket-form'),
+        $chooseTable = $('#choose-table'),
         $zoneInputs = $chooseTable.find('.zone-input'),
         $quantityInputs = $chooseTable.find('.quantity-input'),
+        $submit = $('#submit'),
         $ticketsInputs = $chooseTable.find('.tickets-input'),
         $subtotalInputs = $chooseTable.find('.input-subtotal'),
         $total = $('#total');
@@ -76,9 +78,16 @@
         $total.siblings('input').val(total);
     }
 
-    function finalVal() {
+    $submit.click(function(e){
+//        e.preventDefault();
+        if(finalVal()) {
+            $ticketForm.submit();
+        }
+    });
 
-        if(!$total.val()) {
+    function finalVal() {
+        console.log($total.siblings('input').val());
+        if(!$total.siblings('input').val()) {
             $total.html('Order empty');
             $total.addClass('error');
             return false;

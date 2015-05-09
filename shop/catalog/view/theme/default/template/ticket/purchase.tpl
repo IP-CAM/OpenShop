@@ -72,7 +72,7 @@
   <div class="row">
     <div id="content" class="col-sm-12">
       <h1><?php echo $heading_title; ?></h1>
-      <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
+      <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="ticket-form">
         <div class="table-responsive">
           <table class="table table-striped" id="choose-table">
             <thead>
@@ -91,7 +91,7 @@
                 <td class="text-center col-xs-2 input-price"><?php echo $ticket['price'] ?></td>
                 <td class="text-center col-xs-3">
                     <div class=" col-md-8 col-md-offset-2">
-                        <select name="zone[<?php echo $row ?>]" class="form-control zone-input tickets-input" >
+                        <select name="<?php echo $row ?>['zone']" class="form-control zone-input tickets-input" >
                             <option selected="selected" value="0">Choose Zone</option>
                             <?php foreach ($ticket['zone'] as $k=>$v) { ?>
                             <option value="<?php echo $k ?>" remain="<?php echo $v ?>"><?php echo $k ?></option>
@@ -101,9 +101,9 @@
                 </td>
                 <td class="text-center col-xs-2">
                     <div class="col-md-8 col-md-offset-2">
-                        <input type="number" name="quantity[<?php echo $row ?>]" class='form-control quantity-input tickets-input' min="0" value="0" step="1" >
-                        <input type="hidden" name="name[<?php echo $row ?>]" value="<?php echo $ticket['name'] ?>">
-                        <input type="hidden" name="price[<?php echo $row ?>]" value="<?php echo $ticket['price'] ?>">
+                        <input type="number" name="<?php echo $row ?>['quantity']" class='form-control quantity-input tickets-input' min="0" value="0" step="1" >
+                        <input type="hidden" name="<?php echo $row ?>['name']" value="<?php echo $ticket['name'] ?>">
+                        <input type="hidden" name="<?php echo $row ?>['price']" value="<?php echo $ticket['price'] ?>">
                     </div>
                 </td>
                 <td class="text-center col-xs-2 input-subtotal">
@@ -122,7 +122,7 @@
           </table>
         </div>
         <div class="buttons">
-          <input type="submit" class="pull-right btn btn-primary" value="<?php echo $button_checkout; ?>" onclick="finalVal();">
+          <input type="submit" class="pull-right btn btn-primary" value="<?php echo $button_checkout; ?>" id="submit">
         </div>
       </form>
 
