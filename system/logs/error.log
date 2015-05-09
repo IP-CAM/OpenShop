@@ -1,0 +1,537 @@
+2015-05-01 12:56:24 - PHP Warning:  fsockopen(): unable to connect to :587 (No connection could be made because the target machine actively refused it.
+) in C:\xampp\htdocs\shop\system\library\mail.php on line 168
+2015-05-01 12:56:24 - PHP Notice:  Error: No connection could be made because the target machine actively refused it.
+ (10061) in C:\xampp\htdocs\shop\system\library\mail.php on line 171
+2015-05-01 13:03:32 - PHP Warning:  fsockopen(): unable to connect to :587 (No connection could be made because the target machine actively refused it.
+) in C:\xampp\htdocs\shop\system\library\mail.php on line 168
+2015-05-01 13:03:32 - PHP Notice:  Error: No connection could be made because the target machine actively refused it.
+ (10061) in C:\xampp\htdocs\shop\system\library\mail.php on line 171
+2015-05-01 13:09:32 - PHP Warning:  fsockopen(): unable to connect to :587 (No connection could be made because the target machine actively refused it.
+) in C:\xampp\htdocs\shop\system\library\mail.php on line 168
+2015-05-01 13:09:32 - PHP Notice:  Error: No connection could be made because the target machine actively refused it.
+ (10061) in C:\xampp\htdocs\shop\system\library\mail.php on line 171
+2015-05-01 13:14:01 - PHP Warning:  fsockopen(): unable to connect to :587 (No connection could be made because the target machine actively refused it.
+) in C:\xampp\htdocs\shop\system\library\mail.php on line 168
+2015-05-01 13:14:01 - PHP Notice:  Error: No connection could be made because the target machine actively refused it.
+ (10061) in C:\xampp\htdocs\shop\system\library\mail.php on line 171
+2015-05-01 13:17:56 - PHP Warning:  fsockopen(): unable to connect to :465 (No connection could be made because the target machine actively refused it.
+) in C:\xampp\htdocs\shop\system\library\mail.php on line 168
+2015-05-01 13:17:56 - PHP Notice:  Error: No connection could be made because the target machine actively refused it.
+ (10061) in C:\xampp\htdocs\shop\system\library\mail.php on line 171
+2015-05-01 13:25:07 - PHP Warning:  fsockopen(): unable to connect to :587 (No connection could be made because the target machine actively refused it.
+) in C:\xampp\htdocs\shop\system\library\mail.php on line 168
+2015-05-01 13:25:07 - PHP Notice:  Error: No connection could be made because the target machine actively refused it.
+ (10061) in C:\xampp\htdocs\shop\system\library\mail.php on line 171
+2015-05-01 23:18:44 - PHP Warning:  fsockopen(): unable to connect to :465 (No connection could be made because the target machine actively refused it.
+) in C:\xampp\htdocs\shop\system\library\mail.php on line 168
+2015-05-01 23:18:44 - PHP Notice:  Error: No connection could be made because the target machine actively refused it.
+ (10061) in C:\xampp\htdocs\shop\system\library\mail.php on line 171
+2015-05-05 4:59:54 - PHP Notice:  Undefined index: zone in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 54
+2015-05-05 4:59:54 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 56
+2015-05-05 4:59:54 - PHP Notice:  Undefined index: total in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 57
+2015-05-05 4:59:54 - PHP Notice:  Undefined index: zone in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 54
+2015-05-05 4:59:54 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 56
+2015-05-05 4:59:54 - PHP Notice:  Undefined index: total in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 57
+2015-05-05 4:59:54 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 73
+2015-05-05 4:59:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 73
+2015-05-05 5:03:50 - PHP Notice:  Undefined index: zone in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 57
+2015-05-05 5:03:50 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 57
+2015-05-05 5:03:50 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:03:50 - PHP Notice:  Undefined index: total in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 64
+2015-05-05 5:03:50 - PHP Notice:  Undefined index: zone in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 57
+2015-05-05 5:03:50 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 57
+2015-05-05 5:03:50 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:03:50 - PHP Notice:  Undefined index: total in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 64
+2015-05-05 5:03:50 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:03:50 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:04:52 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:04:52 - PHP Notice:  Undefined index: total in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 64
+2015-05-05 5:04:52 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:04:52 - PHP Notice:  Undefined index: total in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 64
+2015-05-05 5:04:52 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:04:52 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:05:19 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:05:19 - PHP Notice:  Undefined index: total in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 64
+2015-05-05 5:05:19 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:05:19 - PHP Notice:  Undefined index: total in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 64
+2015-05-05 5:05:19 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:05:19 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:06:13 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:06:13 - PHP Notice:  Undefined index: total in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 64
+2015-05-05 5:06:13 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:06:13 - PHP Notice:  Undefined index: total in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 64
+2015-05-05 5:06:13 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:06:13 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:07:34 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:07:34 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:07:34 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:07:34 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:08:19 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:08:19 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:08:19 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:08:19 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:09:27 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:09:27 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:09:27 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:09:27 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:11:51 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:11:51 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:11:51 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:11:51 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:12:10 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:12:10 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:12:10 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:12:10 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:17:29 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:17:29 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:17:29 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:17:29 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 80
+2015-05-05 5:25:45 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 64
+2015-05-05 5:25:45 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 64
+2015-05-05 5:25:45 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 81
+2015-05-05 5:25:45 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 81
+2015-05-05 5:26:51 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 64
+2015-05-05 5:26:51 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 64
+2015-05-05 5:26:51 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 81
+2015-05-05 5:26:51 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 81
+2015-05-05 5:28:14 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 67
+2015-05-05 5:28:14 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 67
+2015-05-05 5:28:14 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 84
+2015-05-05 5:28:14 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 84
+2015-05-05 5:28:20 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 67
+2015-05-05 5:28:20 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 67
+2015-05-05 5:28:20 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 84
+2015-05-05 5:28:20 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 84
+2015-05-05 5:28:33 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 67
+2015-05-05 5:28:33 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 67
+2015-05-05 5:28:33 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 84
+2015-05-05 5:28:33 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 84
+2015-05-05 5:29:30 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 66
+2015-05-05 5:29:30 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 66
+2015-05-05 5:29:30 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 83
+2015-05-05 5:29:30 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 83
+2015-05-05 5:29:39 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 66
+2015-05-05 5:29:39 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 66
+2015-05-05 5:29:39 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 83
+2015-05-05 5:29:39 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 83
+2015-05-05 5:46:09 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 66
+2015-05-05 5:46:09 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 66
+2015-05-05 5:46:09 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 83
+2015-05-05 5:46:09 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 83
+2015-05-05 5:52:20 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 66
+2015-05-05 5:52:20 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 66
+2015-05-05 5:52:20 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 78
+2015-05-05 5:52:20 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 78
+2015-05-05 5:52:40 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 66
+2015-05-05 5:52:40 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 66
+2015-05-05 5:52:40 - PHP Notice:  Undefined variable: totals in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 78
+2015-05-05 5:52:40 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 78
+2015-05-05 5:56:04 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 66
+2015-05-05 5:56:04 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 66
+2015-05-05 5:56:39 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:56:39 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:57:11 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:57:11 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:57:36 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:57:36 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:58:05 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:58:05 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:59:47 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 5:59:47 - PHP Notice:  Undefined index: key in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 6:36:22 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 6:36:34 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 6:37:50 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 6:39:53 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 6:39:57 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 6:51:30 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 6:51:36 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 6:52:26 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 6:52:32 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 6:52:57 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 6:54:22 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 6:54:28 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 6:55:02 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 6:55:06 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 7:00:50 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 7:00:55 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 7:01:01 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 7:01:29 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 7:02:53 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 7:03:01 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 7:04:59 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 7:05:06 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 7:22:09 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 12:23:45 - PHP Notice:  Undefined variable: attention in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 8
+2015-05-05 12:23:46 - PHP Notice:  Undefined variable: success in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 13
+2015-05-05 12:23:46 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 18
+2015-05-05 12:23:46 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 63
+2015-05-05 12:25:20 - PHP Notice:  Undefined variable: attention in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 8
+2015-05-05 12:25:20 - PHP Notice:  Undefined variable: success in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 11
+2015-05-05 12:25:20 - PHP Notice:  Undefined variable: error_warning in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 16
+2015-05-05 12:25:20 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 61
+2015-05-05 13:01:39 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 48
+2015-05-05 13:05:24 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 48
+2015-05-05 13:05:40 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 48
+2015-05-05 13:07:44 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 48
+2015-05-05 13:08:52 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 41
+2015-05-05 13:08:57 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 41
+2015-05-05 13:09:11 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-05 13:09:13 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-05 13:09:16 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-05 13:09:55 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-05 13:10:09 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-05 13:10:46 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-05 13:12:04 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-05 13:12:49 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-05 13:13:07 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-05 13:13:07 - PHP Notice:  Undefined variable: footer in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 56
+2015-05-05 13:13:23 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-06 3:50:12 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 1:18:36 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 1:18:53 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 1:18:55 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 1:19:03 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 1:19:13 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 1:46:26 - PHP Warning:  file_put_contents(./log/2015-05-09.txt): failed to open stream: No such file or directory in C:\xampp\htdocs\shop\system\pubfun\function.php on line 21
+2015-05-09 1:46:26 - PHP Notice:  Use of undefined constant LANG - assumed 'LANG' in C:\xampp\htdocs\shop\system\library\language.php on line 46
+2015-05-09 1:46:26 - PHP Warning:  file_put_contents(./log/2015-05-09.txt): failed to open stream: No such file or directory in C:\xampp\htdocs\shop\system\pubfun\function.php on line 21
+2015-05-09 1:46:27 - PHP Notice:  Error: The user specified as a definer ('3a_events_op'@'localhost') does not exist<br />Error No: 1449<br />CALL getCaptionByPageAndLang('LANG/en.php','en') in C:\xampp\htdocs\shop\system\library\db\mysqli.php on line 41
+2015-05-09 1:46:27 - PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, object given in C:\xampp\htdocs\shop\system\library\language.php on line 56
+2015-05-09 1:47:22 - PHP Notice:  Use of undefined constant LANG - assumed 'LANG' in C:\xampp\htdocs\shop\system\library\language.php on line 46
+2015-05-09 1:47:22 - PHP Notice:  Error: The user specified as a definer ('3a_events_op'@'localhost') does not exist<br />Error No: 1449<br />CALL getCaptionByPageAndLang('LANG/en.php','en') in C:\xampp\htdocs\shop\system\library\db\mysqli.php on line 41
+2015-05-09 1:47:22 - PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, object given in C:\xampp\htdocs\shop\system\library\language.php on line 56
+2015-05-09 1:48:27 - PHP Notice:  Error: The user specified as a definer ('3a_events_op'@'localhost') does not exist<br />Error No: 1449<br />CALL getCaptionByPageAndLang('catalog/en.php','en') in C:\xampp\htdocs\shop\system\library\db\mysqli.php on line 41
+2015-05-09 1:48:27 - PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, object given in C:\xampp\htdocs\shop\system\library\language.php on line 56
+2015-05-09 1:51:53 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 1:53:23 - PHP Warning:  Missing argument 3 for Ticket::get_ticket_for_cart() in C:\xampp\htdocs\shop\catalog\model\models\ticket.php on line 167
+2015-05-09 1:53:23 - PHP Notice:  Undefined variable: ticket_id in C:\xampp\htdocs\shop\catalog\model\models\ticket.php on line 171
+2015-05-09 1:53:23 - PHP Notice:  Undefined variable: ticket_id in C:\xampp\htdocs\shop\catalog\model\models\ticket.php on line 186
+2015-05-09 1:53:24 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 1:55:17 - PHP Warning:  Missing argument 3 for Ticket::get_ticket_for_cart() in C:\xampp\htdocs\shop\catalog\model\models\ticket.php on line 167
+2015-05-09 1:55:17 - PHP Notice:  Undefined variable: ticket_id in C:\xampp\htdocs\shop\catalog\model\models\ticket.php on line 171
+2015-05-09 1:55:17 - PHP Notice:  Undefined variable: ticket_id in C:\xampp\htdocs\shop\catalog\model\models\ticket.php on line 186
+2015-05-09 1:55:17 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 1:59:35 - PHP Warning:  Missing argument 3 for Ticket::get_ticket_for_cart() in C:\xampp\htdocs\shop\catalog\model\models\ticket.php on line 167
+2015-05-09 1:59:35 - PHP Notice:  Undefined variable: ticket_id in C:\xampp\htdocs\shop\catalog\model\models\ticket.php on line 171
+2015-05-09 1:59:35 - PHP Notice:  Undefined variable: ticket_id in C:\xampp\htdocs\shop\catalog\model\models\ticket.php on line 186
+2015-05-09 1:59:35 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 2:01:13 - PHP Notice:  Undefined index: event_id in C:\xampp\htdocs\shop\catalog\model\models\ticket.php on line 170
+2015-05-09 2:01:13 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 2:01:31 - PHP Notice:  Undefined index: event_id in C:\xampp\htdocs\shop\catalog\model\models\ticket.php on line 170
+2015-05-09 2:01:32 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 2:02:25 - PHP Notice:  Undefined index: id in C:\xampp\htdocs\shop\catalog\view\theme\default\template\ticket\purchase.tpl on line 40
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: name in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 29
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: price in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 30
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: stock in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: id in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: quantity in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 43
+2015-05-09 3:38:23 - PHP Notice:  Undefined index: total in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 44
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 34
+2015-05-09 3:38:23 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 38
+2015-05-09 5:19:35 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:19:35 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:19:35 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:19:35 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:19:35 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:19:35 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:19:35 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:19:35 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:19:35 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:19:35 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:19:35 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:19:35 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:24:45 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:24:45 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:24:45 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:24:45 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:24:45 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:24:45 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:24:45 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:24:45 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:24:45 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:24:45 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:24:45 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:24:45 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:28:04 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:28:04 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:28:04 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:28:04 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:28:04 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:28:04 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:28:04 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:28:04 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:28:04 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:28:04 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:28:04 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:28:04 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:43:13 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:43:13 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:43:13 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:43:13 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:43:13 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:43:13 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:43:13 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:43:13 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:43:13 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:43:13 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:43:13 - PHP Notice:  Undefined variable: zone in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 5:43:13 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 101
+2015-05-09 8:25:36 - PHP Notice:  Undefined variable: column_subtotal in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 84
+2015-05-09 8:48:57 - PHP Notice:  Undefined variable: tickets in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 3
+2015-05-09 8:48:57 - PHP Notice:  Undefined variable: tickets in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 27
+2015-05-09 8:48:57 - PHP Warning:  Invalid argument supplied for foreach() in /Users/xlin/Sites/openshop/shop/catalog/view/theme/default/template/ticket/purchase.tpl on line 27
