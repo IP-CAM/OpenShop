@@ -22,25 +22,19 @@ class ControllerTicketPurchase extends Controller {
 
 			$data['text_next'] = $this->language->get('text_next');
 			$data['text_next_choice'] = $this->language->get('text_next_choice');
-
 			$data['column_name'] = $this->language->get('column_name');
 			$data['column_model'] = $this->language->get('column_model');
         $data['column_zone']=$this->language->get('column_zone');
 			$data['column_quantity'] = $this->language->get('column_quantity');
 			$data['column_price'] = $this->language->get('column_price');
 			$data['column_total'] = $this->language->get('column_total');
-
 			$data['button_update'] = $this->language->get('button_update');
 			$data['button_remove'] = $this->language->get('button_remove');
 			$data['button_shopping'] = $this->language->get('button_shopping');
 			$data['button_checkout'] = $this->language->get('button_checkout');
-
-
 			$data['action'] = $this->url->link('ticket/purchase/checkout');
-
 			$data['tickets'] = array();
 
-        //Fake data for testing
 
         $ticket_list=array();
 
@@ -88,6 +82,9 @@ class ControllerTicketPurchase extends Controller {
     //if a user is logged, redirect to checkout page
     //otherwise, redirect to register page
     public function checkout($data){
+
+        //To do - get purchase data from view
+
         $this->session->data['purcase_item']=$data;
         if (!$this->customer->isLogged()) {
             $this->session->data['redirect'] = $this->url->link('account/account', '', 'SSL');
