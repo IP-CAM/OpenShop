@@ -3,12 +3,13 @@ class ControllerTicketCheckout extends Controller {
 	public function index() {
 
         //if user is not logged, redirect to register page
-        if($this->customer->isLogged()) {
+        if(!$this->customer->isLogged()) {
             if (!empty($this->session->data['purchase_item'])) {
                 $purchase_item = $this->session->data['purchase_item'];
             }
             $data['purchase_items'] = $purchase_item;
         }
+        print_r($data['purchase_items']);
 
 		$this->load->language('checkout/checkout');
 
@@ -49,22 +50,7 @@ class ControllerTicketCheckout extends Controller {
 		$data['text_checkout_payment_method'] = $this->language->get('text_checkout_payment_method');
 		$data['text_checkout_confirm'] = $this->language->get('text_checkout_confirm');
 
-		if (isset($this->session->data['error'])) {
-			$data['error_warning'] = $this->session->data['error'];
-			unset($this->session->data['error']);
-		} else {
-			$data['error_warning'] = '';
-		}
 
-		$data['logged'] = $this->customer->isLogged();
-
-		if (isset($this->session->data['account'])) {
-			$data['account'] = $this->session->data['account'];
-		} else {
-			$data['account'] = '';
-		}
-
-		$data['shipping_required'] = $this->cart->hasShipping();
 
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['column_right'] = $this->load->controller('common/column_right');

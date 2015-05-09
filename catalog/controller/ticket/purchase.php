@@ -82,11 +82,12 @@ class ControllerTicketPurchase extends Controller {
     //if a user is logged, redirect to checkout page
     //otherwise, redirect to register page
     public function checkout($data){
-		var_dump($this->request->post); die;
         //To do - get purchase data from view
 
         $this->session->data['purcase_item']=$data;
-        if (!$this->customer->isLogged()) {
+
+        //To do - need to reverse the if statement for production
+        if ($this->customer->isLogged()) {
             $this->session->data['redirect'] = $this->url->link('account/account', '', 'SSL');
 
             $this->response->redirect($this->url->link('account/register', '', 'SSL'));
