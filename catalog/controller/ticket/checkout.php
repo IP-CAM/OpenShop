@@ -4,10 +4,10 @@ class ControllerTicketCheckout extends Controller {
 
         //if user is not logged, redirect to register page
         if(!$this->customer->isLogged()) {
-            if (!empty($this->session->data['purchase_item'])) {
-                $purchase_item = $this->session->data['purchase_item'];
+            if (!empty($this->session->data['purchase_items'])) {
+                $purchase_items = $this->session->data['purchase_items'];
             }
-            $data['purchase_items'] = $purchase_item;
+            $data['purchase_items'] = $purchase_items;
         }
         print_r($data['purchase_items']);
 
