@@ -1,5 +1,68 @@
 <?php echo $header; ?>
-
+<?php
+    $tickets = array(
+        '0' => array(
+                'name'  =>  'VIP1',
+                'price' =>  '$1000',
+                'zone'  =>  array(
+                    '101'   =>  '100',
+                    '102'   =>  '200',
+                    '103'   =>  '300',
+                    '104'   =>  '400'
+                )
+        ),
+       '1' => array(
+                'name'  =>  'VIP2',
+                'price' =>  '$2000',
+                'zone'  =>  array(
+                    '101'   =>  '100',
+                    '102'   =>  '200',
+                    '103'   =>  '300',
+                    '104'   =>  '400'
+                )
+        ),
+        '2' => array(
+                'name'  =>  'VIP3',
+                'price' =>  '$3000',
+                'zone'  =>  array(
+                    '101'   =>  '100',
+                    '102'   =>  '200',
+                    '103'   =>  '300',
+                    '104'   =>  '400'
+                )
+        ),
+        '3' => array(
+                'name'  =>  'VIP4',
+                'price' =>  '$4000',
+                'zone'  =>  array(
+                    '101'   =>  '100',
+                    '102'   =>  '200',
+                    '103'   =>  '300',
+                    '104'   =>  '400'
+                )
+        ),
+        '4' => array(
+                'name'  =>  'VIP5',
+                'price' =>  '$5000',
+                'zone'  =>  array(
+                    '101'   =>  '100',
+                    '102'   =>  '200',
+                    '103'   =>  '300',
+                    '104'   =>  '400'
+                )
+        ),
+        '5' => array(
+                'name'  =>  'VIP6',
+                'price' =>  '$6000',
+                'zone'  =>  array(
+                    '101'   =>  '100',
+                    '102'   =>  '200',
+                    '103'   =>  '300',
+                    '104'   =>  '400'
+                )
+        )
+    );
+?>
 <div class="container">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -11,7 +74,7 @@
       <h1><?php echo $heading_title; ?></h1>
       <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
         <div class="table-responsive">
-          <table class="table table-bordered">
+          <table class="table table-striped">
             <thead>
               <tr>
                     <!--
@@ -28,24 +91,25 @@
               </tr>
             </thead>
             <tbody>
+                <?php foreach ($tickets as $ticket) { ?>
               <tr>
-                <td class="text-center">VIP</td>
-                <td class="text-center">$1200.00</td>
-                <td class="text-center">
-                      <select name="per1" id="per1">
-                          <option selected="selected">Choose Zone</option>
-                          <option value="101" remain="100">101</option>
-                          <option value="102" remain="200">102</option>
-                          <option value="103" remain="300">103</option>
-                          <option value="104" remain="400">104</option>
-                      </select>
-                  </td>
-                <td class="text-center">
+                <td class="text-center col-xs-3"><?php echo $ticket['name'] ?></td>
+                <td class="text-center col-xs-3"><?php echo $ticket['price'] ?></td>
+                <td class="text-center col-xs-3">
+                    <select name="zone" id="per1"  class="form-control">
+                        <option selected="selected">Choose Zone</option>
+                        <?php foreach ($ticket['zone'] as $k=>$v) { ?>
+                        <option value="<?php echo $k ?>" remain="<?php echo $v ?>"><?php echo $k ?></option>
+                        <?php } ?>
+                    </select>
+                </td>
+                <td class="text-center col-xs-3">
                     <div>
-                        <input type="text" name="quantity">
+                        <input type="text" name="quantity" class='form-control' min="0" max="20">
                     </div>
                 </td>
               </tr>
+                <?php } ?>
             </tbody>
           </table>
         </div>
@@ -58,4 +122,5 @@
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>
+<script type="text/javascript" src="./js/checkout.js"></script>
 <?php echo $footer; ?>
