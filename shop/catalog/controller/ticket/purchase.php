@@ -41,39 +41,10 @@ class ControllerTicketPurchase extends Controller {
 			$data['products'] = array();
         $event=array('event_id'=>'50');
         $data['ticket']=$this->model_models_interface->model_interface(0,'ticket','for_cart','get',$event);
-        print_r($data['ticket']);
-
-		//$products = $this->cart->getProducts();
-        $products=array();
-        $products['VIP']['id']='1';
-        $products['VIP']['name']='VIP Ticket';
-        $products['VIP']['price']='1200';
-        $products['VIP']['quantity']='';
-        $products['VIP']['total']='';
-        $products['VIP']['stock']=array(
-          array('A','245'),
-            array('B','32'),
-            array('C','2'),
-        );
-
-        $products['VIP']['id']='2';
-        $products['Couple']['name']='Couple Ticket';
-        $products['Couple']['price']='320';
-        $products['Couple']['quantity']='';
-        $products['Couple']['total']='';
-        $products['Couple']['stock']=array(
-            array('D','245'),
-            array('E','12'),
-            array('H','2'),
-        );
-        //
-
-
 
         //store ticket data in session
-        $_SESSION["tickets"]=$products;
+        $_SESSION["tickets"]=$data['ticket'];
 
-        $data['products']=$products;
 
 			// Totals
 			$this->load->model('extension/extension');
