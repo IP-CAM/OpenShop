@@ -82,7 +82,7 @@ class ControllerTicketPurchase extends Controller {
     //if a user is logged, redirect to checkout page
     //otherwise, redirect to register page
     public function checkout($data){
-
+		var_dump($this->request->post); die;
         //To do - get purchase data from view
 
         $this->session->data['purcase_item']=$data;

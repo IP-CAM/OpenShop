@@ -38,10 +38,8 @@
             _error = false;
         _$quantityInput.removeClass('error');
         _$subtotal.removeClass('error');
+        $total.removeClass('error');
 
-        if(!_remain) {
-            return false;
-        }
 
         if (_quantity % 1 !== 0 ) {
             _result = 'Please provide valid input';
@@ -49,8 +47,10 @@
         } else if(_quantity > parseInt(_remain)) {
             _result = 'Sorry, exceed maximum quantity';
             _error = true;
-        } else {
+        } else if (_remain) {
             _result = '$' + (_quantity * _price).toFixed(2);
+        } else {
+            _result = '$0.00';
         }
 
         _$subtotal.html(_result);
@@ -75,5 +75,23 @@
         $total.html('$' + total.toFixed(2));
         $total.siblings('input').val(total);
     }
+
+    function finalVal() {
+
+        if(!$total.val()) {
+            $total.html('Order empty');
+            $total.addClass('error');
+            return false;
+        }
+        return true;
+    }
+
+    $(window).load(function(){
+        $quantityInputs.each(function(){
+            var _row = $(this).closest('tr').attr('id');
+            calcSubTotal(_row);
+            calcTotal();
+        });
+    });
 
 })(jQuery);

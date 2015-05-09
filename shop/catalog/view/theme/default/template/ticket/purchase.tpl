@@ -122,7 +122,7 @@
           </table>
         </div>
         <div class="buttons">
-          <input type="submit" class="pull-right btn btn-primary" value="<?php echo $button_checkout; ?>">
+          <input type="submit" class="pull-right btn btn-primary" value="<?php echo $button_checkout; ?>" onclick="finalVal();">
         </div>
       </form>
 
