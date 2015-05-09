@@ -56,6 +56,8 @@
         }
 
         _$subtotal.html(_result);
+        _$quantityInput.siblings('.subtotal-post').val(_result);
+
         if (_error) {
             _$quantityInput.addClass('error');
             _$subtotal.addClass('error');
