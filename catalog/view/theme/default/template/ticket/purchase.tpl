@@ -51,7 +51,7 @@
             </tbody>
           </table>
 
-          <table class="table-total table-striped col-sm-4 col-sm-offset-8">
+          <table class="table-total table-striped col-sm-8 col-sm-offset-4 pull-right">
               <td>Total (incl. GST)</td>
               <td id="total">$0.00</td>
               <input type="hidden" value="" name="total">
@@ -67,5 +67,5 @@
     <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>
-<script type="text/javascript" src="./js/checkout.js"></script>
+<script type="text/javascript" src="./js/purchase.js"></script>
 <?php echo $footer; ?>

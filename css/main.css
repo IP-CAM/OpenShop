@@ -132,6 +132,14 @@ img.slide-img {
 #ticket-form input.error, #order-summary input.error {
   border: 1px solid red; }
 #ticket-form .table-total, #order-summary .table-total {
-  font-size: 2em; }
+  font-size: 2em;
+  height: 3em; }
+  #ticket-form .table-total td, #ticket-form .table-total th, #order-summary .table-total td, #order-summary .table-total th {
+    padding: 0.5em; }
+
+.ticket-checkout #shipping-methods .radio label {
+  font-size: 1.5em; }
+.ticket-checkout #shipping-detail-mail {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
