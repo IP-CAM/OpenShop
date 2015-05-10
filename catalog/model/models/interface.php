@@ -108,11 +108,15 @@ class ModelModelsInterface extends Model {
 
     private function model_control($user ,$class_name , $data_type, $action, $data) {
 
+        $class_array = array('ticket'=>'Ticket',
+                            'order'=>'Order',
+                            'event'=>'Event');
+
         if(file_exists(DIR_APPLICATION.'model/models/'.$class_name.'.php')){
 
             require_once(DIR_APPLICATION.'model/models/'.$class_name.'.php');
 
-            $class = new ReflectionClass('Ticket'); // 建立 Person这个类的反射类
+            $class = new ReflectionClass($class_array[$class_name]); // 建立 Person这个类的反射类
 
             $method_name = $action.'_'.$class_name.'_'. $data_type;
 

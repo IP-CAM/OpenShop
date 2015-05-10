@@ -8,7 +8,7 @@
   <div class="row">
     <div id="content" class="col-sm-12">
       <h1><?php echo $heading_title; ?></h1>
-      <form action="http://localhost/openshop/index.php?route=ticket/checkout" method="post" enctype="multipart/form-data" id="ticket-form">
+      <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="ticket-form">
         <div class="table-responsive">
           <table class="table table-striped" id="choose-table">
             <thead>
