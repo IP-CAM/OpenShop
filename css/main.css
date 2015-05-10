@@ -120,15 +120,18 @@ img.slide-img {
 .event-show-placeholder {
   padding: 0; }
 
-#ticket-form .table td {
-  vertical-align: middle; }
-#ticket-form .table input {
+#ticket-form .table td, #ticket-form .table th, #order-summary .table td, #order-summary .table th {
+  vertical-align: middle;
   text-align: center; }
-#ticket-form .table tr {
+#ticket-form .table input, #order-summary .table input {
+  text-align: center; }
+#ticket-form .table tr, #order-summary .table tr {
   height: 4em; }
-#ticket-form .error {
+#ticket-form .error, #order-summary .error {
   color: red; }
-#ticket-form input.error {
+#ticket-form input.error, #order-summary input.error {
   border: 1px solid red; }
+#ticket-form .table-total, #order-summary .table-total {
+  font-size: 2em; }
 
 /*# sourceMappingURL=main.css.map */

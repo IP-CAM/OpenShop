@@ -187,13 +187,13 @@ img.slide-img {
 }
 
 
-//Start purchase page
-#ticket-form {
+//Start checkout pages
+#ticket-form, #order-summary {
     .table {
-        td {
+        td, th {
             vertical-align: middle;
+            text-align: center;
         }
-
 
         input {
             text-align: center;
@@ -212,6 +212,10 @@ img.slide-img {
     input.error {
         border: 1px solid red;
     }
+
+    .table-total {
+        font-size: 2em;
+    }
 }
 
-//End purchase page
+//End checkout pages
