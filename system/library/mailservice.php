@@ -173,16 +173,16 @@
                      foreach ($items as $k => $v) {
                          foreach ($v as $k1 => $v1) {
                              if ($k1 == 'name') {
-                                 $itemDescription += 'Item Name:' . $v1 . '<br/>';
+                                 $itemDescription .= 'Item Name:' . $v1 . '<br/>';
                              }
                              if ($k1 == 'price') {
-                                 $itemDescription += 'Item Price:' . $v1 . '<br/>';
+                                 $itemDescription .= 'Item Price:' . $v1 . '<br/>';
                              }
-                             if ($k1 == 'Zone') {
-                                 $itemDescription += 'Zone:' . $v1 . '<br/>';
+                             if ($k1 == 'zone') {
+                                 $itemDescription .= 'zone:' . $v1 . '<br/>';
                              }
                              if ($k1 == 'quantity') {
-                                 $itemDescription += 'Quantity:' . $v1 . '<br/>';
+                                 $itemDescription .= 'Quantity:' . $v1 . '<br/>';
                              }
                          }
                      }
@@ -198,8 +198,8 @@
                 }
 
                 $emailContent = str_replace('@FIRSTNAME', $firstName, $emailContent);
-                $emailContent=str_replace('@ORDERNUM',$orderNumber,$emailContent);
-                $emailContent=str_replace('@ITEMS',$items,$emailContent);
+                $emailContent=str_replace('@ORDERID',$orderNumber,$emailContent);
+                $emailContent=str_replace('@ITEMS',$itemDescription,$emailContent);
             }
 
             $mail->msgHTML($emailContent, dirname(__FILE__));

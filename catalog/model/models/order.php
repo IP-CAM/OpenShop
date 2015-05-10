@@ -253,16 +253,16 @@ class Order extends Model {
 
             foreach ($data as $key => $value) {
 
-                $order_detail_row_id = $this->db->escape(isset($value['order_detail_row_id']) ? $value['order_detail_row_id'] : 1);
-                $order_id = $this->db->escape(isset($value['order_id']) ? $value['order_id'] : 1);
+                $order_detail_row_id = $this->db->escape(isset($value['order_detail_row_id']) ? $value['order_detail_row_id'] : 0);
+                $order_id = $this->db->escape(isset($value['order_id']) ? $value['order_id'] : 0);
                 $order_product_id = $this->db->escape(isset($value['order_product_id']) ? $value['order_product_id'] : 1);
                 $order_product_type = $this->db->escape(isset($value['order_product_type']) ? $value['order_product_type'] : 1);
-                $product_quantities = $this->db->escape(isset($value['product_quantities']) ? $value['product_quantities'] : 1);
-                $product_price = $this->db->escape(isset($value['product_price']) ? $value['product_price'] : 1);
+                $product_quantities = $this->db->escape(isset($value['product_quantities']) ? $value['product_quantities'] : 0);
+                $product_price = $this->db->escape(isset($value['product_price']) ? $value['product_price'] : 0);
                 $discount_rate = $this->db->escape(isset($value['discount_rate']) ? $value['discount_rate'] : 1);
                 $reward = $this->db->escape(isset($value['reward']) ? $value['reward'] : 1);
 
-                $status = $this->db->escape(isset($value['status']) ? $value['status'] : 1);
+                $status = $this->db->escape(isset($value['status']) ? $value['status'] : 0);
                 $created_date = $this->db->escape(isset($value['created_date']) ? $value['created_date'] : '0000-00-00');
                 $modified_date = $this->db->escape(isset($value['modified_date']) ? $value['modified_date'] : '0000-00-00');
                 $operator_id = $this->db->escape($user);

@@ -16,8 +16,11 @@ class ControllerTicketCheckout extends Controller
                 $address_list = $this->model_account_customer->get_customer_address(64);
                 $data['address_list'] = $address_list;
             }
+            var_dump($data['purchase_items']);
         }
-
+        else{
+            $this->response->redirect($this->url->link('account/register', '', 'SSL'));
+        }
         $this->load->language('checkout/checkout');
 
         $this->document->setTitle($this->language->get('heading_title'));
@@ -31,6 +34,7 @@ class ControllerTicketCheckout extends Controller
             $this->document->addScript('http://cdn.klarna.com/public/kitt/toc/v1.0/js/klarna.terms.min.js');
         }
 
+        $data['action'] = $this->url->link('ticket/checkout/submit');
         $data['breadcrumbs'] = array();
 
         $data['breadcrumbs'][] = array(
@@ -70,16 +74,14 @@ class ControllerTicketCheckout extends Controller
         } else {
             $this->response->setOutput($this->load->view('default/template/ticket/checkout.tpl', $data));
         }
-
-        //else{
-        //$this->response->redirect($this->url->link('account/register', '', 'SSL'));
-        //}
     }
 
     public function submit()
     {
-$post_data=array();
-
+        $this->load->model('models/interface');
+        $this->load->model('account/customer');
+        $post_data=array();
+        $purchase_items = $this->session->data['purchase_items'];
         $flag = 1;
         if ($flag == 1) {
             //To do- get live data from view about payment selection and delivery address
@@ -148,18 +150,15 @@ $post_data=array();
             $data['created_date'] = date("Y-m-d H:i:s", time());
             $data['modified_date'] = date("Y-m-d H:i:s", time());
             $order_array['operator_id'] = '1';
-            var_dump($data);
 
             //call stored procedure to insert a new order
             $result = $this->model_models_interface->model_interface(0, 'order', 'info', 'edit', $data);
-            var_dump($result);
             foreach ($result as $v) {
                 if ($v['result'] == 1) {
                     $order_id = $v['reason'];
-
                     //populate order details from purchased items stored in session
                     $order_details = array();
-                    foreach ($post_data['purchased_items'] as $k => $v) {
+                    foreach ($purchase_items as $k => $v) {
                         if ($k == 'purchase_items') {
                             foreach ($v as $k1 => $v1) {
                                 $order_details[$k1]['order_row_id'] = '';
@@ -179,36 +178,38 @@ $post_data=array();
                     }
                     $result1 = $this->model_models_interface->model_interface(0, 'order', 'detail', 'edit', $order_details);
                     var_dump($result1);
+                    var_dump($order_details);
                 }
             }
 
+            $items=array(
+                array('name'=>'VVIP','price'=>1280, 'quantity'=>2,'zone'=>'102'),
+                array('name'=>'A','price'=>326, 'quantity'=>3,'zone'=>'263'));
+
             //parse returned result from database
-//                if(isset($customer) && $customer['result']){
-//                    $mail = new mailservice();
-//                    $mail_date=array();
-//                    $mail_date['customer']['fname']=$this->request->post['firstname'];
-//                    $mail_date['customer']['lname']=$this->request->post['lastname'];
-//                    $mail_date['customer']['gender']='';
-//                    $mail_date['customer']['salutation']='';
-//                    $mail_date['mail']['language_id']=$this->config->get('config_language');
-//                    $mail_date['mail']['type']='checkout';
-//                    $mail_date['mail']['send_time']='';
-//                    $mail_date['mail']['time']= 1;
-//                    $mail_date['mail']['email_address']=$this->request->post['email'];
-//                    $mail_date['data']['link']='http://www.eso.nz/index.php?route=account/success&token='.$token;
-//                    $mail_date['data']['items']='';
-//                    $mail_date['data']['delivery_type']['id']='';
-//                    $mail_date['data']['delivery_type']['value']='';
-//                    $mail_result = $mail->send_mail($mail_date);
-//                    if(isset($mail_result) && !empty($mail_result)){
-//                        foreach($mail_result as $keys => $values){
-//                            $mail_res =  $keys;
-//                            $mail_reseason =  $values;
-//                        }
-//                    }
-//                }
+                    $mail = new mailservice();
+                    $mail_date=array();
+                    $mail_date['customer']['fname']='Steven';
+                    $mail_date['customer']['lname']='Wang';
+                    $mail_date['customer']['gender']='';
+                    $mail_date['customer']['salutation']='';
+                    $mail_date['mail']['language_id']='en';
+                    $mail_date['mail']['type']='checkout';
+                    $mail_date['mail']['send_time']='';
+                    $mail_date['mail']['time']= 1;
+                    $mail_date['mail']['email_address']='yuqian.m.lu@gmail.com';
+                    $mail_date['data']['items']=$items;
+                    $mail_date['data']['delivery_type']['id']='';
+                    $mail_date['data']['delivery_type']['value']='';
+                    $mail_date['data']['order_number']='13';
+                    $mail_result = $mail->send_mail($mail_date);
+                    if(isset($mail_result) && !empty($mail_result)){
+                        foreach($mail_result as $keys => $values){
+                            $mail_res =  $keys;
+                            $mail_reseason =  $values;
+                        }
+                    }
+
         }
-
-
     }
 }
