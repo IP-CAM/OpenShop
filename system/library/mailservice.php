@@ -163,7 +163,7 @@
                     include_once('checkoutconfirm_cn.html') ;
                     $emailContent = file_get_contents('checkoutconfirm_cn.html',true);
                 } else {
-                     $mail->Subject = 'Checkout Confirmation';
+                     $mail->Subject = 'Ticket Purchase Confirmation - ESO Team';
                      include_once('checkoutconfirm_en.html');
                      $emailContent = file_get_contents('checkoutconfirm_en.html',true);
                  }

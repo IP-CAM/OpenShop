@@ -8,7 +8,7 @@
   <div class="row">
     <div id="content" class="col-sm-12">
       <h1><?php echo $heading_title; ?></h1>
-      <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="ticket-form">
+      <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="ticket-form" class="form-horizontal">
         <div class="table-responsive">
           <table class="table table-striped" id="choose-table">
             <thead>
@@ -17,7 +17,7 @@
                 <th class="text-center"><?php echo $column_price; ?></th>
                 <th class="text-center"><?php echo $column_zone; ?></th>
                 <th class="text-center"><?php echo $column_quantity; ?></th>
-                  <th class="text-center">Subtotal</th>
+                  <th class="text-center"><?php echo $column_subtotal; ?></th>
               </tr>
             </thead>
             <tbody>
@@ -50,38 +50,44 @@
                 <?php } ?>
             </tbody>
           </table>
-
           <table class="table-total table-striped col-sm-4 col-sm-offset-8">
               <td>Total (incl. GST)</td>
               <td id="total">$0.00</td>
               <input type="hidden" value="" name="total">
             </tr>
           </table>
+            <br>
+            <br>
+            <div class="buttons">
+                <input class="pull-right btn btn-primary" type="button" value="<?php echo $button_nextstep; ?>" id="ticket_nextstep">
+            </div>
         </div>
-
+          <div id="personal_info">
           <fieldset>
+              <legend><?php echo $text_personal_info; ?></legend>
         <div class="form-group required">
             <label class="col-sm-2 control-label" for="input-firstname"><?php echo $entry_firstname; ?></label>
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <input type="text" name="customer[firstname]" value="<?php echo $firstname; ?>" placeholder="<?php echo $entry_firstname; ?>" id="input-firstname" class="form-control" />
                 <?php if ($error_firstname) { ?>
                 <div class="text-danger"><?php echo $error_firstname; ?></div>
                 <?php } ?>
             </div>
+            <label class="col-sm-4" for="input-firstname"><?php echo $info_firstname; ?></label>
         </div>
         <div class="form-group required">
             <label class="col-sm-2 control-label" for="input-lastname"><?php echo $entry_lastname; ?></label>
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <input type="text" name="customer[lastname]" value="<?php echo $lastname; ?>" placeholder="<?php echo $entry_lastname; ?>" id="input-lastname" class="form-control" />
                 <?php if ($error_lastname) { ?>
                 <div class="text-danger"><?php echo $error_lastname; ?></div>
                 <?php } ?>
             </div>
+            <label class="col-sm-4" for="input-lastname"><?php echo $info_lastname; ?></label>
         </div>
-
         <div class="form-group">
             <label class="col-sm-2 control-label" for="input-agegroup"><?php echo $entry_agegroup; ?></label>
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <select name="customer[agegroup]" class="form-control">
                     <?php if (!empty($agegroup)) { ?>
                     <?php foreach ($agegroup as $value) { ?>
@@ -93,48 +99,59 @@
                     <?php } ?>
                 </select>
             </div>
+            <label class="col-sm-4" for="input-agegroup"><?php echo $info_agegroup; ?></label>
         </div>
         </fieldset>
         <fieldset>
             <legend><?php echo $text_your_email; ?></legend>
-
             <div class="form-group required">
                 <label class="col-sm-2 control-label" for="input-email"><?php echo $entry_email; ?></label>
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <input type="email" name="customer[email]" value="<?php echo $email; ?>" placeholder="<?php echo $entry_email; ?>" id="input-email" class="form-control" />
                     <?php if ($error_email) { ?>
                     <div class="text-danger"><?php echo $error_email; ?></div>
                     <?php } ?>
                 </div>
+                <label class="col-sm-4" for="input-email"><?php echo $info_email; ?></label>
             </div>
-
+            <div class="form-group required">
+                <label class="col-sm-2 control-label" for="input-email"><?php echo $entry_confirm_email; ?></label>
+                <div class="col-sm-6">
+                    <input type="email" name="" value="<?php echo $email; ?>" placeholder="<?php echo $entry_confirm_email; ?>" id="input-email" class="form-control" />
+                    <?php if ($error_email) { ?>
+                    <div class="text-danger"><?php echo $error_email; ?></div>
+                    <?php } ?>
+                </div>
+                <label class="col-sm-4" for="input-confirm_email"><?php echo $info_comfirm_email; ?></label>
+            </div>
         </fieldset>
         <fieldset>
             <legend><?php echo $text_your_telephone; ?></legend>
 
             <div class="form-group">
                 <label class="col-sm-2 control-label" for="input-phone"><?php echo $entry_telephone; ?></label>
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <input type="phone" name="customer[phone]" value="<?php echo $telephone; ?>" placeholder="<?php echo $entry_telephone; ?>" id="input-phone" class="form-control" />
                 </div>
+                <label class="col-sm-4" for="input-telephone"><?php echo $info_telephone; ?></label>
             </div>
-
         </fieldset>
-        <fieldset>
+          </div>
+          <fieldset>
             <legend><?php echo $text_your_address; ?></legend>
             <div class="form-group">
                 <body onload="initialize()">
                 <label class="col-sm-2 control-label" for="autocomplete"><?php echo $entry_full_address; ?></label>
-                <div class="col-sm-10" >
+                <div class="col-sm-6" >
                     <input type="text" name="customer[full_address]" value="<?php echo $full_address; ?>" placeholder="<?php echo $entry_full_address; ?>" onFocus="geolocate()" id="autocomplete"  class="form-control" />
                 </div>
+                <label class="col-sm-4" for="autocomplete"><?php echo $info_address; ?></label>
             </div>
 
             <div class="form-group">
                 <div class="col-sm-4" >
                     <input type="hidden" name="customer[street_number]" value="<?php echo $street_number; ?>"  readonly="true" placeholder="<?php echo $entry_street_number; ?>" id="street_number"  class="form-control" />
                 </div>
-
                 <div class="col-sm-4" >
                     <input type="hidden" name="customer[route]" value="<?php echo $route; ?>"  readonly="true" placeholder="<?php echo $entry_route; ?>" id="route"  class="form-control" />
                 </div>
@@ -158,7 +175,6 @@
                     <input type="hidden" name="customer[country]" value="<?php echo $country; ?>" readonly="true"  placeholder="<?php echo $entry_country; ?>" id="country"  class="form-control" />
                 </div>
             </div>
-
             <div class="form-group">
                 <div class="col-sm-4">
                     <input type="hidden" name="customer[postcode]" value="<?php echo $postcode; ?>"  readonly="true" placeholder="<?php echo $entry_postcode; ?>" id="postal_code"  class="form-control" />
@@ -166,17 +182,14 @@
                 </div>
             </div>
         </fieldset>
-        <fieldset>
+          <fieldset>
             <legend><?php echo $text_your_otherinfo; ?></legend>
             <div class="form-group">
                 <label class="col-sm-2 control-label" for="promotion_code"><?php echo $entry_promotion_code; ?></label>
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <input type="text" name="customer[promotion_code]" value="<?php echo $promotion_code; ?>" placeholder="<?php echo $entry_promotion_code; ?>" id="promotion_code"  class="form-control" />
                 </div>
-                <label class="col-sm-2 control-label" for="ticket_code"><?php echo $entry_ticket_code; ?></label>
-                <div class="col-sm-4">
-                    <input type="text" name="customer[ticket_code]" value="<?php echo $ticket_code; ?>"  placeholder="<?php echo $entry_ticket_code; ?>" id="ticket_code"  class="form-control" />
-                </div>
+                <label class="col-sm-4" for="promotion_code"><?php echo $info_promotion_code; ?></label>
             </div>
         </fieldset>
           <fieldset>

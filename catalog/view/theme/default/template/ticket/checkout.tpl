@@ -1,25 +1,7 @@
 <?php echo $header; ?>
 
-<?php
-    $purchase_items = array(
-        '1' => array(
-            'zone' => '101',
-            'quantity' => '1',
-            'name' => 'VVIP',
-            'price' => '328.00',
-            'subtotal' => '328.00'
-        ),
-        '2' => array(
-            'zone' => '201',
-            'quantity' => '2',
-            'name' => 'VIP',
-            'price' => '268.00',
-            'subtotal' => '536.00'
-        )
-    );
-?>
-
 <div class="container">
+    <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="ticket-form">
     <div class="col-xs-12" id="order-summary">
         <h2>Order Summary</h2>
         <table class="table table-striped col-xs-12">
@@ -30,7 +12,7 @@
                 <th>Quantity</th>
                 <th>Subtotal</th>
             </tr>
-            <?php foreach($purchase_items as $row => $item) { ?>
+            <?php foreach($purchase_items['purchase_items'] as $row => $item) { ?>
             <tr>
                 <td><?php echo $item['name'] ?></td>
                 <td><?php echo $item['price'] ?></td>
@@ -47,11 +29,15 @@
         </table>
         <table class="table-total table-striped col-sm-4 col-sm-offset-8">
             <td>Total (incl. GST)</td>
-            <td id="total">$total</td>
+            <td id="total"><?php echo $purchase_items['total'] ?></td>
             <input type="hidden" value="" name="total">
             </tr>
         </table>
     </div>
+        <div class="buttons">
+            <input type="submit" class="pull-right btn btn-primary" value="<?php echo $text_checkout_confirm; ?>" id="submit">
+        </div>
+        </form>
     <div class="col-xs-12" id="shipping-methods">
         <h2>Shipping Method</h2>
         <div class="radio">
