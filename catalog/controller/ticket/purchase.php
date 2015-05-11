@@ -359,8 +359,6 @@ class ControllerTicketPurchase extends Controller {
         //get delivery type from database
         $payment_method=$this->model_models_interface->model_interface(0,'configuration','by_code','get','payment_method');
         $delivery_type=$this->model_models_interface->model_interface(0,'configuration','by_code','get','delivery_type');
-var_dump($payment_method);
-        var_dump($delivery_type);
         foreach ($ticket_db as $key => $value) {
             if (is_array($value) && !empty($value)) {
                 if ($key == 'ticket_price_list') {
@@ -378,6 +376,8 @@ var_dump($payment_method);
         }
         $data['tickets']=$ticket_list;
         $data['age_group']=$age_group;
+        $data['payment_method']=$payment_method;
+        $data['delivery_type']=$delivery_type;
 
 			$data['checkout'] = $this->url->link('checkout/checkout', '', 'SSL');
 
