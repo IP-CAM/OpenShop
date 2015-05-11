@@ -13,11 +13,37 @@ class ModelAccountCustomer extends Model {
 
 		$customer_group_info = $this->model_account_customer_group->getCustomerGroup($customer_group_id);
 
-		$this->db->query("INSERT INTO " . DB_PREFIX . "customer SET customer_group_id = '" . (int)$customer_group_id . "', store_id = '" . (int)$this->config->get('config_store_id') . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "', custom_field = '" . $this->db->escape(isset($data['custom_field']['account']) ? serialize($data['custom_field']['account']) : '') . "', salt = '" . $this->db->escape($salt = substr(md5(uniqid(rand(), true)), 0, 9)) . "', password = '" . $this->db->escape(sha1($salt . sha1($salt . sha1($data['password'])))) . "', newsletter = '" . (isset($data['newsletter']) ? (int)$data['newsletter'] : 0) . "', ip = '" . $this->db->escape($this->request->server['REMOTE_ADDR']) . "', status = '1', approved = '" . (int)!$customer_group_info['approval'] . "', date_added = NOW()");
+		$this->db->query("INSERT INTO " . DB_PREFIX . "customer SET
+		                customer_group_id = '" . (int)$customer_group_id . "',
+		                store_id = '" . (int)$this->config->get('config_store_id') . "',
+		                firstname = '" . $this->db->escape($data['firstname']) . "',
+		                lastname = '" . $this->db->escape($data['lastname']) . "',
+		                email = '" . $this->db->escape($data['email']) . "',
+		                telephone = '" . $this->db->escape($data['telephone']) . "',
+		                fax = '" . $this->db->escape($data['fax']) . "',
+		                custom_field = '" . $this->db->escape(isset($data['custom_field']['account']) ? serialize($data['custom_field']['account']) : '') . "',
+		                salt = '" . $this->db->escape($salt = substr(md5(uniqid(rand(), true)), 0, 9)) . "',
+		                password = '" . $this->db->escape(sha1($salt . sha1($salt . sha1($data['password'])))) . "',
+		                newsletter = '" . (isset($data['newsletter']) ? (int)$data['newsletter'] : 0) . "',
+		                ip = '" . $this->db->escape($this->request->server['REMOTE_ADDR']) . "',
+		                status = '1',
+		                approved = '" . (int)!$customer_group_info['approval'] . "',
+		                date_added = NOW()");
 
 		$customer_id = $this->db->getLastId();
 
-		$this->db->query("INSERT INTO " . DB_PREFIX . "address SET customer_id = '" . (int)$customer_id . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', company = '" . $this->db->escape($data['company']) . "', address_1 = '" . $this->db->escape($data['address_1']) . "', address_2 = '" . $this->db->escape($data['address_2']) . "', city = '" . $this->db->escape($data['city']) . "', postcode = '" . $this->db->escape($data['postcode']) . "', country_id = '" . (int)$data['country_id'] . "', zone_id = '" . (int)$data['zone_id'] . "', custom_field = '" . $this->db->escape(isset($data['custom_field']['address']) ? serialize($data['custom_field']['address']) : '') . "'");
+		$this->db->query("INSERT INTO " . DB_PREFIX . "address SET
+		                customer_id = '" . (int)$customer_id . "',
+		                firstname = '" . $this->db->escape($data['firstname']) . "',
+		                lastname = '" . $this->db->escape($data['lastname']) . "',
+		                company = '" . $this->db->escape($data['company']) . "',
+		                address_1 = '" . $this->db->escape($data['address_1']) . "',
+		                address_2 = '" . $this->db->escape($data['address_2']) . "',
+		                city = '" . $this->db->escape($data['city']) . "',
+		                postcode = '" . $this->db->escape($data['postal_code']) . "',
+		                country_id = '" . (int)$data['country'] . "',
+		                zone_id = '" . (int)$data['state'] . "',
+		                custom_field = '" . $this->db->escape(isset($data['custom_field']['address']) ? serialize($data['custom_field']['address']) : '') . "'");
 
 		$address_id = $this->db->getLastId();
 
@@ -40,20 +66,12 @@ class ModelAccountCustomer extends Model {
 		$message .= $this->language->get('text_thanks') . "\n";
 		$message .= $this->config->get('config_name');
 
-		$mail = new Mail();
-		$mail->protocol = $this->config->get('config_mail_protocol');
-		$mail->parameter = $this->config->get('config_mail_parameter');
-		$mail->smtp_hostname = $this->config->get('config_mail_smtp_host');
-		$mail->smtp_username = $this->config->get('config_mail_smtp_username');
-		$mail->smtp_password = html_entity_decode($this->config->get('config_mail_smtp_password'), ENT_QUOTES, 'UTF-8');
-		$mail->smtp_port = $this->config->get('config_mail_smtp_port');
-		$mail->smtp_timeout = $this->config->get('config_mail_smtp_timeout');
-			
+		$mail = new Mail($this->config->get('config_mail'));
 		$mail->setTo($data['email']);
 		$mail->setFrom($this->config->get('config_email'));
 		$mail->setSender($this->config->get('config_name'));
 		$mail->setSubject($subject);
-		$mail->setText($message);
+		$mail->setText(html_entity_decode($message, ENT_QUOTES, 'UTF-8'));
 		$mail->send();
 
 		// Send to main admin email if new account email is enabled
@@ -66,17 +84,9 @@ class ModelAccountCustomer extends Model {
 			$message .= $this->language->get('text_email') . ' '  .  $data['email'] . "\n";
 			$message .= $this->language->get('text_telephone') . ' ' . $data['telephone'] . "\n";
 
-			$mail = new Mail();
-			$mail->protocol = $this->config->get('config_mail_protocol');
-			$mail->parameter = $this->config->get('config_mail_parameter');
-			$mail->smtp_hostname = $this->config->get('config_mail_smtp_host');
-			$mail->smtp_username = $this->config->get('config_mail_smtp_username');
-			$mail->smtp_password = html_entity_decode($this->config->get('config_mail_smtp_password'), ENT_QUOTES, 'UTF-8');
-			$mail->smtp_port = $this->config->get('config_mail_smtp_port');
-			$mail->smtp_timeout = $this->config->get('config_mail_smtp_timeout');
-			
-			$mail->setSubject($this->language->get('text_new_customer'));
-			$mail->setText($message);
+			$mail->setTo($this->config->get('config_email'));
+			$mail->setSubject(html_entity_decode($this->language->get('text_new_customer'), ENT_QUOTES, 'UTF-8'));
+			$mail->setText(html_entity_decode($message, ENT_QUOTES, 'UTF-8'));
 			$mail->send();
 
 			// Send to additional alert emails if new account email is enabled
@@ -177,5 +187,142 @@ class ModelAccountCustomer extends Model {
 	
 	public function deleteLoginAttempts($email) {
 		$this->db->query("DELETE FROM `" . DB_PREFIX . "customer_login` WHERE email = '" . $this->db->escape(utf8_strtolower($email)) . "'");
-	}	
+	}
+
+    public function edit_customer($data = array(),$token){
+
+        $this->event->trigger('pre.customer.add', $data);
+
+        if (isset($data['customer_group_id']) && is_array($this->config->get('config_customer_group_display')) && in_array($data['customer_group_id'], $this->config->get('config_customer_group_display'))) {
+            $customer_group_id = $data['customer_group_id'];
+        } else {
+            $customer_group_id = $this->config->get('config_customer_group_id');
+        }
+
+        $this->load->model('account/customer_group');
+
+        $customer_group_info = $this->model_account_customer_group->getCustomerGroup($customer_group_id);
+
+        if((int)$this->customer->getId() > 0){
+            $customer_id = (int)$this->customer->getId();
+        }
+        else{
+            $customer_id = 0;
+        }
+
+        $customer_group_id  = (int)$customer_group_id ;
+        $store_id           = (int)$this->config->get('config_store_id') ;
+        $firstname          = $this->db->escape($data['firstname']);
+        $lastname           = $this->db->escape($data['lastname']) ;
+        $email              = $this->db->escape($data['email']) ;
+        $telephone          = $this->db->escape(isset($data['telephone']) ? $this->db->escape($data['telephone']) : '');
+        $fax                = $this->db->escape(isset($data['fax']) ? $this->db->escape($data['fax']) : '');
+        $custom_field       = $this->db->escape(isset($data['agegroup']) ? $data['agegroup'] : 0);
+        $salt               = $this->db->escape($salt = substr(md5(uniqid(rand(), true)), 0, 9));
+        $password           = $this->db->escape(isset($data['password']) ? sha1($salt . sha1($salt . sha1($data['password']))) : '');
+        $newsletter         = (isset($data['newsletter']) ? (int)$data['newsletter'] : 0);
+        $ip                 = $this->db->escape($this->request->server['REMOTE_ADDR']) ;
+        $toke              =$this->db->escape($token);
+        $status             = 1;
+        $approved           = (int)!$customer_group_info['approval'] ;
+
+
+        $this->db->query("call edit_customer($customer_id,$customer_group_id,$store_id,'$firstname','$lastname','$email',
+                                                '$telephone','$fax','$custom_field','$salt', '$password', $newsletter,
+                                                '$ip', $status ,$approved,'$toke',
+                                                @result,@reason)");
+
+        $this->event->trigger('post.customer.add', $customer_id);
+
+        $_result=get_object_vars($this->db->query("SELECT @result"));
+
+        $_reason=get_object_vars($this->db->query("SELECT @reason"));
+
+        $result=array('result'=>$_result['row']['@result'],'reason'=>$_reason['row']['@reason']);
+
+        return $result;
+    }
+
+    public function edit_customer_to_address($operation,$customer_id,$address_id,$address_type_id){
+
+
+        $this->db->query("call edit_customer_to_address('$operation',$customer_id,$address_id,$address_type_id,
+                                                @result,@reason)");
+
+        $_result=get_object_vars($this->db->query("SELECT @result"));
+
+        $_reason=get_object_vars($this->db->query("SELECT @reason"));
+
+        $result=array('result'=>$_result['row']['@result'],'reason'=>$_reason['row']['@reason']);
+
+
+        return $result;
+    }
+
+    public function get_customer_to_address($customer_id){
+
+        $result = $this->db->multi_query("call get_customer_to_address($customer_id)");
+
+        return $result;
+    }
+
+    public function getAgentGroup() {
+        $query = $this->db->query("SELECT * FROM tb_configure
+                                  WHERE type='agegroup' and status=1");
+
+        return $query->rows;
+    }
+
+    public function update_promotion($customer_id,$promotion_code){
+
+        $this->db->query("UPDATE tb_promotion_code  SET customer_id = " . $customer_id .
+                        " WHERE (customer_id is null or customer_id <=0) and promotion_code = '" . $promotion_code. "'" );
+
+    }
+
+    public function update_ticket_code($customer_id,$promotion_code,$ticket_code){
+        if($customer_id && !empty($promotion_code) && !empty($ticket_code)){
+
+            $this->db->query("UPDATE tb_promotion_code  SET ticket_code = " . $ticket_code .
+                " WHERE promotion_code = '" . $promotion_code . "' and ticket_code is null ");
+        }
+
+    }
+    //get user address
+    function get_customer_address($customr_id){
+        $data['addresses'] = array();
+
+        $this->load->model('account/customer');
+        $this->load->model('account/address');
+
+        $address_list = $this->model_account_customer->get_customer_to_address($customr_id);
+
+        $data['address_types'] = $this->model_account_address->get_address_type();
+
+        foreach($data['address_types'] as $key => $value){
+            $data['address_types'][$key]['language'] = $this->language->get($value['type_description']);
+            $data['add'][$value['type_description']] = $this->url->link('account/address/add', 'address_type_id=' . $value['address_type_id'], 'SSL');
+        }
+
+        foreach ($address_list as $result) {
+
+            $addresses = $this->model_account_address->get_address((int)$result['address_id']);
+
+            foreach ($addresses as $address) {
+
+                $data['addresses'][] = array(
+                    'address_id'  => $address['address_id'],
+                    'full_address'  => $address['full_address'],
+                    'street_number' => $address['street_number'],
+                    'route'         => $address['route'],
+                    'suburb'        => $address['suburb'],
+                    'city'          => $address['city'],
+                    'postcode'      => $address['postcode'],
+                    'state'         => $address['state'],
+                    'country'       => $address['country']
+                );
+            }
+        }
+        return $data['addresses'];
+    }
 }

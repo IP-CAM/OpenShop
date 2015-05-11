@@ -3,7 +3,8 @@ class ModelAccountAddress extends Model {
 	public function addAddress($data) {
 		$this->event->trigger('pre.customer.add.address', $data);
 
-		$this->db->query("INSERT INTO " . DB_PREFIX . "address SET customer_id = '" . (int)$this->customer->getId() . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', company = '" . $this->db->escape($data['company']) . "', address_1 = '" . $this->db->escape($data['address_1']) . "', address_2 = '" . $this->db->escape($data['address_2']) . "', postcode = '" . $this->db->escape($data['postcode']) . "', city = '" . $this->db->escape($data['city']) . "', zone_id = '" . (int)$data['zone_id'] . "', country_id = '" . (int)$data['country_id'] . "', custom_field = '" . $this->db->escape(isset($data['custom_field']) ? serialize($data['custom_field']) : '') . "'");
+		$this->db->query("INSERT INTO " . DB_PREFIX . "address SET
+		customer_id = '" . (int)$this->customer->getId() . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', company = '" . $this->db->escape($data['company']) . "', address_1 = '" . $this->db->escape($data['address_1']) . "', address_2 = '" . $this->db->escape($data['address_2']) . "', postcode = '" . $this->db->escape($data['postcode']) . "', city = '" . $this->db->escape($data['city']) . "', zone_id = '" . (int)$data['zone_id'] . "', country_id = '" . (int)$data['country_id'] . "', custom_field = '" . $this->db->escape(isset($data['custom_field']) ? serialize($data['custom_field']) : '') . "'");
 
 		$address_id = $this->db->getLastId();
 
@@ -150,4 +151,47 @@ class ModelAccountAddress extends Model {
 
 		return $query->row['total'];
 	}
+
+    public function edit_address($data = array()){
+
+        $this->event->trigger('pre.customer.add.address', $data);
+
+        $full_address    =$this->db->escape($data['full_address']);
+        $street_number   =$this->db->escape($data['street_number']);
+        $route           =$this->db->escape($data['route']);
+        $suburb          =$this->db->escape($data['suburb']);
+        $city            =$this->db->escape($data['city']);
+        $postcode        =$this->db->escape($data['postcode']);
+        $country         =$this->db->escape($data['country']);
+        $state           =$this->db->escape($data['zone']);
+        $location        ='';//$data['location'];
+
+
+        $this->db->query("call edit_address('$full_address','$street_number','$route','$suburb','$city','$postcode',
+                                            '$country','$state','$location',
+                                            @result,@reason)");
+
+        $_result=get_object_vars($this->db->query("SELECT @result"));
+
+        $_reason=get_object_vars($this->db->query("SELECT @reason"));
+
+        $result=array('result'=>$_result['row']['@result'],'reason'=>$_reason['row']['@reason']);
+
+        $this->event->trigger('post.customer.add.address', $_reason['row']['@reason']);
+        return $result;
+
+    }
+
+    public function get_address($address_id) {
+
+        $result = $this->db->multi_query("call get_address($address_id)");
+
+        return $result;
+    }
+
+    public function get_address_type(){
+        $query = $this->db->query("SELECT DISTINCT * FROM 3a_address_type ");
+
+        return $query->rows;
+    }
 }
