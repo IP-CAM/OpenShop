@@ -187,7 +187,7 @@ img.slide-img {
 }
 
 
-//Start checkout pages
+// Start order forms
 #ticket-form, #order-summary {
     .table {
         td, th {
@@ -214,8 +214,29 @@ img.slide-img {
     }
 
     .table-total {
+
         font-size: 2em;
+        height: 3em;
+
+        td, th {
+            padding: 0.5em;
+        }
     }
 }
 
-//End checkout pages
+// End order forms
+
+// Start checkout page
+.ticket-checkout {
+
+    #shipping-methods .radio label{
+        font-size: 1.5em;
+    }
+
+    #shipping-detail-mail {
+        display: none;
+    }
+}
+
+
+// End checkout page
